@@ -43,3 +43,26 @@ li{
 .amount{
     color: #D7FE64;
 }
+.form{
+    border-radius: 10px;
+    background-color: #474747;
+}
+.titleForm{
+    color: #D7FE64;
+}
+.formText{
+    color: white;
+}
+input{
+    background-color: #333333;
+    border-style: none;
+    border-radius: 5px;
+}
+.footerForm{
+    text-decoration: none;
+    color: #D7FE64;
+    font-size: x-small;
+}
+.footerForm:hover{
+    color: #e3fc9b;
+}
