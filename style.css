@@ -61,7 +61,7 @@ input{
 .footerForm{
     text-decoration: none;
     color: #D7FE64;
-    font-size: x-small;
+    font-size: small;
 }
 .footerForm:hover{
     color: #e3fc9b;
