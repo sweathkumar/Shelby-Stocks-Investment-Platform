@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: white;
     margin: 0px;
@@ -43,9 +45,30 @@ li{
     color: #D7FE64;
 }
 .form{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #474747;
 }
+.backStyle{
+    position: relative;
+    overflow: visible;
+    z-index: 0;
+}
+.lefttoForm{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+}
+.righttoForm{
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+}
+/* .header, .content, .footer{
+    position: relative;
+    z-index: 1;
+} */
 .titleForm{
     color: #D7FE64;
 }
@@ -57,6 +80,9 @@ input{
     border-style: none;
     border-radius: 5px;
 }
+input:hover{
+    scale: 110%;
+}
 .footerForm{
     text-decoration: none;
     color: #D7FE64;
@@ -64,11 +90,14 @@ input{
 }
 .footerForm:hover{
     color: #e3fc9b;
+    scale: 110%;
 }
+/* divider  */
 hr{
-    border-width: 2px;
+    border-width: 5px;
     border-color: #241b1b;
 }
+/* footer  */
 .footList{
     padding: 5px 0px;
 }
@@ -78,13 +107,18 @@ hr{
 }
 .footerList:hover{
     color: #D7FE64;
+    
 }
 .footerSection{
     background-color: #333333;
 }
 .footerTopList{
+    cursor: auto;
     color: #a5a5a5;
+    text-decoration: none;
 }
 .footerTopList:hover{
-    color: #D7FE64;
+    cursor: auto;
+    color: #a5a5a5;
+    text-decoration: none;
 }
