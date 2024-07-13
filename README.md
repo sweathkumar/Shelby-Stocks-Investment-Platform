@@ -9,9 +9,9 @@ Features
 
 ## Technologies Used
 
-  1.HTML5
-  2.CSS3
-  3.Bootstrap5
+  1. HTML5
+  2. CSS3
+  3. Bootstrap5
 
 ## Deployment
 The application is deployed on GitHub Pages and can be accessed at: https://github.com/sweathkumar/Shelby-Stocks-Investment-Platform
