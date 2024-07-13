@@ -40,6 +40,11 @@ li{
 .box{
     background-color: #474747;
     border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.486);
+}
+.box:hover{
+    transition: transform 0.3s ease-in-out;
+    scale: 105%;
 }
 .amount{
     color: #D7FE64;
@@ -52,23 +57,29 @@ li{
     position: relative;
     overflow: visible;
     z-index: 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.445);
+}
+.backStyle:hover{
+    transition: transform 0.3s ease-in-out;
+    scale: 110%;
 }
 .lefttoForm{
     position: absolute;
     top: -5px;
     left: -5px;
     z-index: -1;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.459);
+    border-top-left-radius: 20px;
 }
 .righttoForm{
     position: absolute;
     bottom: -5px;
     right: -5px;
     z-index: -1;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.397);
+    border-bottom-right-radius: 20px;
 }
-/* .header, .content, .footer{
-    position: relative;
-    z-index: 1;
-} */
 .titleForm{
     color: #D7FE64;
 }
@@ -77,10 +88,12 @@ li{
 }
 input{
     background-color: #333333;
-    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.514);
     border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.459);
 }
 input:hover{
+    transition: transform 0.3s ease-in-out;
     scale: 110%;
 }
 .footerForm{
@@ -124,4 +137,12 @@ hr{
     color: #a5a5a5;
     text-decoration: none;
     font-weight: normal;
+}
+.ico{
+    scale: 80%;
+}
+.ico:hover{
+    transition: transform 0.3s ease-in-out;
+    scale: 90%;
+    
 }
