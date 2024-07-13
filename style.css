@@ -104,15 +104,17 @@ hr{
 .footerList{
     text-decoration: none;
     color: white;
+    font-weight: normal;
 }
 .footerList:hover{
     color: #D7FE64;
-    
+    font-weight: normal;
 }
 .footerSection{
     background-color: #333333;
 }
 .footerTopList{
+    font-weight: normal;
     cursor: auto;
     color: #a5a5a5;
     text-decoration: none;
@@ -121,4 +123,5 @@ hr{
     cursor: auto;
     color: #a5a5a5;
     text-decoration: none;
+    font-weight: normal;
 }
