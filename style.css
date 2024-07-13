@@ -10,7 +10,6 @@
 }
 /* header  */
 .headerSection{
-    padding: 1rem 0rem;
     background-color: #333333;
 }
 .nav-bar{
@@ -65,4 +64,24 @@ input{
 }
 .footerForm:hover{
     color: #e3fc9b;
+}
+hr{
+    border-width: 2px;
+    border-color: #241b1b;
+}
+.footList{
+    padding: 5px 0px;
+}
+.footerList{
+    text-decoration: none;
+    color: white;
+}
+.footerSection{
+    background-color: #333333;
+}
+.footerTopList{
+    color: #a5a5a5;
+}
+.footerTopList:hover{
+    color: #969696;
 }
