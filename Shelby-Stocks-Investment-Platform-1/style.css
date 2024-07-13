@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #333333;
+}
+/* header  */
+.headerSection{
+    padding: 1rem 0rem;
+    background-color: #333333;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    text-align: center;
+    width: fit-content;
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.signUp{
+    color: #D7FE64;;
+}
+.links:hover{
+    color: #d9ff68;;
+}
+/* main  */
+.mainSection{
+    background-color: #333333;
+}
+.box{
+    background-color: #474747;
+    border-radius: 10px;
+}
+.amount{
+    color: #D7FE64;
+}
