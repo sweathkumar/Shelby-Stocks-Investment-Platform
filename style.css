@@ -54,3 +54,33 @@ input{
 .formFooter:hover{
     color: #ddfa77;
 }
+/* divider  */
+.hr{
+    border: 1px solid #474747;
+    background-color: #474747;
+}
+/* footer  */
+.footList{
+    list-style: none;
+    padding: 4px 0px;
+}
+.footerTopList{
+    cursor: auto;
+    text-decoration: none;
+    color: #a5a5a5;
+    font-size: medium;
+    font-weight: normal;
+}
+.footerTopList:hover{
+    cursor: auto;
+    color: #a5a5a5;
+}
+.footerList{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: normal;
+}
+.footerList:hover{
+    color: #ddfa77;
+}
