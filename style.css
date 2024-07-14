@@ -26,10 +26,31 @@
     color: white;
 }
 /* main  */
+/* banner  */
 .box{
     background-color: #474747;
     border-radius: 10px;
 }
 .inBox{
+    color: #ddfa77;
+}
+/* form  */
+.form{
+    background-color: #474747;
+    border-radius: 20px;
+}
+.formTitle{
+    color: #ddfa77;
+}
+input{
+    background-color:#333333;
+    border: none;
+    border-radius: 10px;
+}
+.formFooter{
+    color: #ddfa77;
+    text-decoration: none;
+}
+.formFooter:hover{
     color: #ddfa77;
 }
