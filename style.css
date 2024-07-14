@@ -34,10 +34,29 @@
 .inBox{
     color: #ddfa77;
 }
+/* backstyle  */
+.backstyle{
+    position: relative;
+    overflow: visible;
+    z-index: 0;
+}
+.lefttoForm{
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    z-index: -1;
+}
+.righttoForm{
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    z-index: -1;
+}
 /* form  */
 .form{
     background-color: #474747;
     border-radius: 20px;
+    z-index: 2;
 }
 .formTitle{
     color: #ddfa77;
